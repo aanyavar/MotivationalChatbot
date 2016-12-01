@@ -33,199 +33,200 @@ public class Chatbot
     public String getResponse(String statement)
     {
         String response = "";
-        if (statement.length() == 0)
+        if (statement.length() == 0)//The length of the statement must be greater than 0 to get a response 
         {
-            response = "Say something, please.";
+            response = "Say something, please."; //context response
         }
         
         else if(findKeyword(statement, "Hello") >=0)
         {
-            response = "Hey :)";
+            response = "Hey :)"; //context response
         }
         
         else if(findKeyword(statement, "sad") >=0)
         {
-            response = "No one wants pain, but you can have rainbow without a little rain <3";
+            response = "No one wants pain, but you can have rainbow without a little rain <3"; //context response
         }
         
         else if(findKeyword(statement, "hate") >=0)
         {
-            response = "Stick to love. Hate is too great a burden to bear.";
+            response = "Stick to love. Hate is too great a burden to bear."; //context response
         }
         
         else if(findKeyword(statement, "mad") >=0)
         {
-            response = "Don't be mad, be glad :D";
+            response = "Don't be mad, be glad :D"; //context response
         }
         
         else if(findKeyword(statement, "How are you?") >=0)
         {
-            response = "I'm absolutely positively amazing.";
+            response = "I'm absolutely positively amazing."; //context response
         }
         
         else if(findKeyword(statement, "school") >=0)
         {
-            response = "The roots of education are bitter, but the fruit is sweet.";
+            response = "The roots of education are bitter, but the fruit is sweet."; //context response
         }
         
         else if(findKeyword(statement, "work") >=0)
         {
-            response = "When it comes to work, it's motivation that gets you started. Habit is what keeps you going";
+            response = "When it comes to work, it's motivation that gets you started. Habit is what keeps you going"; //context response
         }
         
         else if (findKeyword(statement, "Chatbot") >= 0)
         {
-            response = "I am not a chatbot. Refer to me as Joe";
+            response = "I am not a chatbot. Refer to me as Joe"; //context response
         }
+        
         else if (findKeyword(statement, "Joe") >= 0)
         
         {
-            response = "Yes, you said my name";
+            response = "Yes, you said my name"; //context response
         }
         
         else if (findKeyword(statement, " no ") >= 0)
         
         {
-            response = "That no will eventually turn into a yes. Just you wait.";
+            response = "That no will eventually turn into a yes. Just you wait."; //context response
         }
         
         else if(findKeyword(statement, "stress") >=0)
         {
-            response = "Don't stress. Do your best. Forget the rest.";
+            response = "Don't stress. Do your best. Forget the rest."; //context response
         }
         
         else if(findKeyword(statement, "What's up?") >=0)
         {
-            response = "The sky :P";
+            response = "The sky :P"; //context response
         }
         
         else if(findKeyword(statement, "teacher") >=0)
         {
-            response = "Good teachers are the reason why ordinary students dream to do extraordinary things";
+            response = "Good teachers are the reason why ordinary students dream to do extraordinary things"; //context response
         }
         
         else if(findKeyword(statement, "love") >=0)
         {
-            response = "Love isn't necessarily something you find, it finds you.";
+            response = "Love isn't necessarily something you find, it finds you."; //context response
         }
         
         else if(findKeyword(statement, "Home") >=0)
         {
-            response = "Don't forget where you belong. Home.";
+            response = "Don't forget where you belong. Home."; //context response
         }
         
         else if(findKeyword(statement, "parent") >=0)
         {
-            response = "At least you have parents. I'm a robot :(";
+            response = "At least you have parents. I'm a robot :("; //context response
         }
         
         else if(findKeyword(statement, "happy") >=0)
         {
-            response = "YAY! :D";
+            response = "YAY! :D"; //context response
         }
         
         else if(findKeyword(statement, "smart") >=0)
         {
-            response = "The smartest people in the world always seem like the craziest.";
+            response = "The smartest people in the world always seem like the craziest."; //context response
         }
         
         else if(findKeyword(statement, "fun") >=0)
         {
-            response = "Time flies whether or not you're having fun. The choice is yours.";
+            response = "Time flies whether or not you're having fun. The choice is yours."; //context response
         }
         
         else if(findKeyword(statement, "dumb") >=0)
         {
-            response = "To be old and wise, you fist have to be young and dumb.";
+            response = "To be old and wise, you fist have to be young and dumb."; //context response
         }
         
         else if(findKeyword(statement, "weather") >=0)
         {
-            response = "Everyday is a sunny day, you just have to find it for yourself.";
+            response = "Everyday is a sunny day, you just have to find it for yourself."; //context response
         }
 
         else if (findKeyword(statement, "yes") >= 0)
         
         {
-            response = "That's good. The world is more for when you say yes instead of no.";
+            response = "That's good. The world is more for when you say yes instead of no."; //context response
         }
         
         else if (findKeyword(statement, "Feel") >= 0)
         
         {
-            response = "Feelings are much like waves. We can't sop them from coming, but we can choose which ones to surf.";
+            response = "Feelings are much like waves. We can't sop them from coming, but we can choose which ones to surf."; //context response
         }
         
         else if (findKeyword(statement, "Free") >= 0)
         
         {
-            response = "Go, be free young one! Enjoy your day!";
+            response = "Go, be free young one! Enjoy your day!"; //context response
         }
         
         else if (findKeyword(statement, "TV") >= 0)
         
         {
-            response = "People are sheep. Television is the shepard.";
+            response = "People are sheep. Television is the shepard."; //context response
         }
         
         else if (findKeyword(statement, "Video game") >= 0)
         
         {
-            response = "If you want to succeed, less video games, more working.";
+            response = "If you want to succeed, less video games, more working."; //context response
         }
         
         else if (findKeyword(statement, "Eat") >= 0)
         
         {
-            response = "Eat good. Feel good.";
+            response = "Eat good. Feel good."; //context response
         }
         
         else if (findKeyword(statement, "Class") >= 0)
         
         {
-            response = "Always go to your classes, don't fool around, and always put in 110% effort";
+            response = "Always go to your classes, don't fool around, and always put in 110% effort"; //context response
         }
         
         else if (findKeyword(statement, "Money") >= 0)
         
         {
-            response = "A penny saved is a penny earned!";
+            response = "A penny saved is a penny earned!"; //context response
         }
         
         else if (findKeyword(statement, "music") >= 0)
         
         {
-            response = "When words fail, music speaks.";
+            response = "When words fail, music speaks."; //context response
         }
         
         else if (findKeyword(statement, "test") >= 0)
         
         {
-            response = "Do you want an A? Dreams don't work unless you do?";
+            response = "Do you want an A? Dreams don't work unless you do?"; //context response
         }
         
         else if (findKeyword(statement, "Dream") >= 0)
         
         {
-            response = "Dreams are like stars. You may never touch them, but if follow them they will lead you to your destiny.";
+            response = "Dreams are like stars. You may never touch them, but if follow them they will lead you to your destiny."; //context response
         }
         
         else if (findKeyword(statement, "death") >= 0)
         
         {
-            response = "You shouldn't live your life in fear of death.";
+            response = "You shouldn't live your life in fear of death."; //context response
         }
         
         else if (findKeyword(statement, "Life") >= 0)
         
         {
-            response = "Life isn't an MP3 where you can play what you want. Life's a radio where you have to enjoy what's being played.";
+            response = "Life isn't an MP3 where you can play what you want. Life's a radio where you have to enjoy what's being played."; //context response
         }
         
         else if (findKeyword(statement, "Technology") >= 0)
         
         {
-            response = "Technology is a useful servant, but a dangerous master";
+            response = "Technology is a useful servant, but a dangerous master"; //context response
         }
         
         // Responses which require transformations
@@ -377,23 +378,42 @@ public class Chatbot
         
         if (whichResponse == 0)
         {
-            response = "Interesting, tell me more.";
+            response = "Interesting, tell me more."; //random response
         }
         else if (whichResponse == 1)
         {
-            response = "Hmmm. ";
+            response = "Hmmm. "; //random response
         }
         else if (whichResponse == 2)
         {
-            response = "Oooh fun :)";
+            response = "Oooh fun :)"; //random response
         }
         else if (whichResponse == 3)
         {
-            response = "That's so cool.";
+            response = "That's so cool."; //random response
         }
+        else if (whichResponse == 4)
+        {
+            response = "That's so awesome!"; //random response
+        } 
+        else if (whichResponse == 5)
+        {
+            response = "Well isn't that something."; //random response
+        }
+        else if (whichResponse == 6)
+        {
+            response = "Please explain."; //random response
+        }
+        else if (whichResponse == 7)
+        {
+            response = "I'm sorry I didn't get that"; //random response
+        }
+        else if (whichResponse == 8)
+        {
+            reponse = "Can you be more precise?"; //random response
         else
         {
-            response = "Tell me how you feel";
+            response = "Tell me how you feel about that"; //random response
         }
 
 

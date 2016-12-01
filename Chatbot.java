@@ -301,6 +301,15 @@ public class Chatbot
         String restOfStatement = statement.substring(psnOfYou + 3, psnOfMe).trim();
         return "What makes you think that I " + restOfStatement + " you?";
     }
+     
+    /**
+   
+    * Statement with "I like <stuff>" and transforms to "I like <stuff> too!"
+    * @param statement the user statement, checks if it contains "I like"
+    * @return the transformed statement
+    
+    */
+    
     
     
        public String ILikeStatement(String statement)

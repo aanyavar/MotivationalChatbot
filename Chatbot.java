@@ -275,7 +275,7 @@ public class Chatbot
         }
         int psn = findKeyword (statement, "I want to", 0);
         String restOfStatement = statement.substring(psn + 9).trim();
-        return "What would it mean to " + restOfStatement + "?";
+        return "What does it really mean to " + restOfStatement + "?";
  }
  /**
      * Take a statement with "you <something> me" and transform it into 

@@ -308,8 +308,8 @@ public class Chatbot
            if (statement.contains("I like"))
            {
                statement = statement.trim();
-               position = statement.indexOf("I like");
-               snip = statement.substring(position);
+               int position = statement.indexOf("I like");
+               String snip = statement.substring(position);
                System.out.println("OOOOH I like" + snip + "too") ;
            }
            

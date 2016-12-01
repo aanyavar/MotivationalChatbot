@@ -40,7 +40,7 @@ public class Chatbot
         
         else if(findKeyword(statement, "Hello") >=0) //logic
         {
-            response = "Hey :)"; //context response
+            response = "Hey :) How are you?"; //context response
         }
         
         else if(findKeyword(statement, "sad") >=0) //logic
@@ -223,10 +223,10 @@ public class Chatbot
             response = "Life isn't an MP3 where you can play what you want. Life's a radio where you have to enjoy what's being played."; //context response
         }
         
-        else if (findKeyword(statement, "technology") >= 0) //logic
+        else if (findKeyword(statement, "goodbye") >= 0) //logic
         
         {
-            response = "Technology is a useful servant, but a dangerous master"; //context response
+            response = "Bye, hope I was helpful! :)"; //context response
         }
         
         // Responses which require transformations

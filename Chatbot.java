@@ -303,7 +303,22 @@ public class Chatbot
     }
     
     
-
+       public String ILikeStatement(String statement)
+    {
+           if (statement.contains("I like"))
+           {
+               statement = statement.trim();
+               position = statement.indexOf("I like");
+               snip = statement.substring(position);
+               System.out.println("OOOOH I like" + snip + "too") ;
+           }
+           
+           else
+           {
+               System.out.println("That's nice!");
+           }
+           
+    }   
 
     
     
@@ -364,9 +379,7 @@ public class Chatbot
         return findKeyword (statement, goal, 0);
     }
     
-    public String IWantFood(String statement)
-    {
-    }   
+   
 
     /**
      * Pick a default response to use if nothing else fits.

@@ -38,199 +38,199 @@ public class Chatbot
             response = "Say something, please."; //context response
         }
         
-        else if(findKeyword(statement, "Hello") >=0)
+        else if(findKeyword(statement, "Hello") >=0) //logic
         {
             response = "Hey :)"; //context response
         }
         
-        else if(findKeyword(statement, "sad") >=0)
+        else if(findKeyword(statement, "sad") >=0) //logic
         {
             response = "No one wants pain, but you can have rainbow without a little rain <3"; //context response
         }
         
-        else if(findKeyword(statement, "hate") >=0)
+        else if(findKeyword(statement, "hate") >=0) //logic
         {
             response = "Stick to love. Hate is too great a burden to bear."; //context response
         }
         
-        else if(findKeyword(statement, "mad") >=0)
+        else if(findKeyword(statement, "mad") >=0) //logic
         {
             response = "Don't be mad, be glad :D"; //context response
         }
         
-        else if(findKeyword(statement, "How are you?") >=0)
+        else if(findKeyword(statement, "How are you?") >=0) //logic
         {
             response = "I'm absolutely positively amazing."; //context response
         }
         
-        else if(findKeyword(statement, "school") >=0)
+        else if(findKeyword(statement, "school") >=0) //logic
         {
             response = "The roots of education are bitter, but the fruit is sweet."; //context response
         }
         
-        else if(findKeyword(statement, "work") >=0)
+        else if(findKeyword(statement, "work") >=0) //logic
         {
             response = "When it comes to work, it's motivation that gets you started. Habit is what keeps you going"; //context response
         }
         
-        else if (findKeyword(statement, "Chatbot") >= 0)
+        else if (findKeyword(statement, "Chatbot") >= 0) //logic
         {
             response = "I am not a chatbot. Refer to me as Joe"; //context response
         }
         
-        else if (findKeyword(statement, "Joe") >= 0)
+        else if (findKeyword(statement, "Joe") >= 0) //logic
         
         {
             response = "Yes, you said my name"; //context response
         }
         
-        else if (findKeyword(statement, " no ") >= 0)
+        else if (findKeyword(statement, " no ") >= 0) //logic
         
         {
             response = "That no will eventually turn into a yes. Just you wait."; //context response
         }
         
-        else if(findKeyword(statement, "stress") >=0)
+        else if(findKeyword(statement, "stress") >=0) //logic
         {
             response = "Don't stress. Do your best. Forget the rest."; //context response
         }
         
-        else if(findKeyword(statement, "What's up?") >=0)
+        else if(findKeyword(statement, "What's up?") >=0) //logic
         {
             response = "The sky :P"; //context response
         }
         
-        else if(findKeyword(statement, "teacher") >=0)
+        else if(findKeyword(statement, "teacher") >=0) //logic
         {
             response = "Good teachers are the reason why ordinary students dream to do extraordinary things"; //context response
         }
         
-        else if(findKeyword(statement, "love") >=0)
+        else if(findKeyword(statement, "love") >=0) //logic
         {
             response = "Love isn't necessarily something you find, it finds you."; //context response
         }
         
-        else if(findKeyword(statement, "Home") >=0)
+        else if(findKeyword(statement, "Home") >=0) //logic
         {
             response = "Don't forget where you belong. Home."; //context response
         }
         
-        else if(findKeyword(statement, "parent") >=0)
+        else if(findKeyword(statement, "parent") >=0) //logic
         {
             response = "At least you have parents. I'm a robot :("; //context response
         }
         
-        else if(findKeyword(statement, "happy") >=0)
+        else if(findKeyword(statement, "happy") >=0) //logic
         {
             response = "YAY! :D"; //context response
         }
         
-        else if(findKeyword(statement, "smart") >=0)
+        else if(findKeyword(statement, "smart") >=0) //logic
         {
             response = "The smartest people in the world always seem like the craziest."; //context response
         }
         
-        else if(findKeyword(statement, "fun") >=0)
+        else if(findKeyword(statement, "fun") >=0) //logic
         {
             response = "Time flies whether or not you're having fun. The choice is yours."; //context response
         }
         
-        else if(findKeyword(statement, "dumb") >=0)
+        else if(findKeyword(statement, "dumb") >=0) //logic
         {
             response = "To be old and wise, you fist have to be young and dumb."; //context response
         }
         
-        else if(findKeyword(statement, "weather") >=0)
+        else if(findKeyword(statement, "weather") >=0) //logic
         {
             response = "Everyday is a sunny day, you just have to find it for yourself."; //context response
         }
 
-        else if (findKeyword(statement, "yes") >= 0)
+        else if (findKeyword(statement, "yes") >= 0) //logic
         
         {
             response = "That's good. The world is more for when you say yes instead of no."; //context response
         }
         
-        else if (findKeyword(statement, "Feel") >= 0)
+        else if (findKeyword(statement, "Feel") >= 0) //logic
         
         {
             response = "Feelings are much like waves. We can't sop them from coming, but we can choose which ones to surf."; //context response
         }
         
-        else if (findKeyword(statement, "Free") >= 0)
+        else if (findKeyword(statement, "Free") >= 0) //logic
         
         {
             response = "Go, be free young one! Enjoy your day!"; //context response
         }
         
-        else if (findKeyword(statement, "TV") >= 0)
+        else if (findKeyword(statement, "TV") >= 0) //logic
         
         {
             response = "People are sheep. Television is the shepard."; //context response
         }
         
-        else if (findKeyword(statement, "Video game") >= 0)
+        else if (findKeyword(statement, "Video game") >= 0) //logic
         
         {
             response = "If you want to succeed, less video games, more working."; //context response
         }
         
-        else if (findKeyword(statement, "Eat") >= 0)
+        else if (findKeyword(statement, "Eat") >= 0) //logic
         
         {
             response = "Eat good. Feel good."; //context response
         }
         
-        else if (findKeyword(statement, "Class") >= 0)
+        else if (findKeyword(statement, "Class") >= 0) //logic
         
         {
             response = "Always go to your classes, don't fool around, and always put in 110% effort"; //context response
         }
         
-        else if (findKeyword(statement, "Money") >= 0)
+        else if (findKeyword(statement, "Money") >= 0) //logic
         
         {
             response = "A penny saved is a penny earned!"; //context response
         }
         
-        else if (findKeyword(statement, "music") >= 0)
+        else if (findKeyword(statement, "music") >= 0) //logic
         
         {
             response = "When words fail, music speaks."; //context response
         }
         
-        else if (findKeyword(statement, "test") >= 0)
+        else if (findKeyword(statement, "test") >= 0) //logic
         
         {
             response = "Do you want an A? Dreams don't work unless you do?"; //context response
         }
         
-        else if (findKeyword(statement, "Dream") >= 0)
+        else if (findKeyword(statement, "dream") >= 0) //logic
         
         {
             response = "Dreams are like stars. You may never touch them, but if follow them they will lead you to your destiny."; //context response
         }
         
-        else if (findKeyword(statement, "death") >= 0)
+        else if (findKeyword(statement, "death") >= 0) //logic
         
         {
             response = "You shouldn't live your life in fear of death."; //context response
         }
         
-        else if (findKeyword(statement, "Life") >= 0)
+        else if (findKeyword(statement, "life") >= 0) //logic
         
         {
             response = "Life isn't an MP3 where you can play what you want. Life's a radio where you have to enjoy what's being played."; //context response
         }
         
-        else if (findKeyword(statement, "Technology") >= 0)
+        else if (findKeyword(statement, "technology") >= 0) //logic
         
         {
             response = "Technology is a useful servant, but a dangerous master"; //context response
         }
         
         // Responses which require transformations
-        else if (findKeyword(statement, "I want to", 0) >= 0)
+        else if (findKeyword(statement, "I want to", 0) >= 0) //logic
         {
             response = transformIWantToStatement(statement);
         }
@@ -262,16 +262,16 @@ public class Chatbot
      * @param statement the user statement, assumed to contain "I want to"
      * @return the transformed statement
      */
-    private String transformIWantToStatement(String statement)
+    public String transformIWantToStatement(String statement)
     {
         //  Remove the final period, if there is one
         statement = statement.trim();
         String lastChar = statement.substring(statement
                 .length() - 1);
-        if (lastChar.equals("."))
+        if (lastChar.equals("."))//logic
         {
             statement = statement.substring(0, statement
-                    .length() - 1);
+                    .length() - 1); //logic
         }
         int psn = findKeyword (statement, "I want to", 0);
         String restOfStatement = statement.substring(psn + 9).trim();
@@ -288,11 +288,11 @@ public class Chatbot
         //  Remove the final period, if there is one
         statement = statement.trim();
         String lastChar = statement.substring(statement
-                .length() - 1);
-        if (lastChar.equals("."))
+                .length() - 1); //logic
+        if (lastChar.equals(".")) //logic
         {
             statement = statement.substring(0, statement
-                    .length() - 1);
+                    .length() - 1); 
         }
         
         int psnOfYou = findKeyword (statement, "you", 0);
@@ -327,18 +327,18 @@ public class Chatbot
         {
             //  Find the string of length 1 before and after the word
             String before = " ", after = " "; 
-            if (psn > 0)
+            if (psn > 0)//logic
             {
                 before = phrase.substring (psn - 1, psn).toLowerCase();
             }
-            if (psn + goal.length() < phrase.length())
+            if (psn + goal.length() < phrase.length())//logic
             {
                 after = phrase.substring(psn + goal.length(), psn + goal.length() + 1).toLowerCase();
             }
             
             //  If before and after aren't letters, we've found the word
             if (((before.compareTo ("a") < 0 ) || (before.compareTo("z") > 0))  //  before is not a letter
-                    &&  ((after.compareTo ("a") < 0 ) || (after.compareTo("z") > 0)))
+                    &&  ((after.compareTo ("a") < 0 ) || (after.compareTo("z") > 0)))//logic
             {
                 return psn;
             }
@@ -364,6 +364,9 @@ public class Chatbot
         return findKeyword (statement, goal, 0);
     }
     
+    public String IWantFood(String statement)
+    {
+    }   
 
     /**
      * Pick a default response to use if nothing else fits.
@@ -376,39 +379,39 @@ public class Chatbot
         int whichResponse = (int)(r * NUMBER_OF_RESPONSES);
         String response = "";
         
-        if (whichResponse == 0)
+        if (whichResponse == 0) //logic
         {
             response = "Interesting, tell me more."; //random response
         }
-        else if (whichResponse == 1)
+        else if (whichResponse == 1) //logic
         {
             response = "Hmmm. "; //random response
         }
-        else if (whichResponse == 2)
+        else if (whichResponse == 2) //logic
         {
             response = "Oooh fun :)"; //random response
         }
-        else if (whichResponse == 3)
+        else if (whichResponse == 3) //logic
         {
             response = "That's so cool."; //random response
         }
-        else if (whichResponse == 4)
+        else if (whichResponse == 4) //logic
         {
             response = "That's so awesome!"; //random response
         } 
-        else if (whichResponse == 5)
+        else if (whichResponse == 5) //logic
         {
             response = "Well isn't that something."; //random response
         }
-        else if (whichResponse == 6)
+        else if (whichResponse == 6) //logic
         {
             response = "Please explain."; //random response
         }
-        else if (whichResponse == 7)
+        else if (whichResponse == 7) //logic
         {
             response = "I'm sorry I didn't get that"; //random response
         }
-        else if (whichResponse == 8)
+        else if (whichResponse == 8) //logic
         {
             reponse = "Can you be more precise?"; //random response
         else

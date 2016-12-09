@@ -1,4 +1,3 @@
-
 public class Chatbot
 {
     /**
@@ -20,7 +19,8 @@ public class Chatbot
      */ 
     public String getGreeting()
     {
-        return "Hello, let's talk.";
+        System.out.println("Hello, let's talk.");
+        return "joe =chatbot" ;
     }
     
     /**
@@ -253,7 +253,8 @@ public class Chatbot
                 response = getRandomResponse();
             }
         }
-        return response;
+        System.out.println(response);
+        return "joe = chatbot";
     }
     
     /**
@@ -275,7 +276,8 @@ public class Chatbot
         }
         int psn = findKeyword (statement, "I want to", 0);
         String restOfStatement = statement.substring(psn + 9).trim();
-        return "What does it really mean to " + restOfStatement + "?";
+        System.out.println("Why in the world would you want to " + restOfStatement + "?");
+        return "joe = chatbot";
  }
  /**
      * Take a statement with "you <something> me" and transform it into 
@@ -319,7 +321,7 @@ public class Chatbot
                statement = statement.trim();
                int position = statement.indexOf("I like");
                String snip = statement.substring(position);
-               System.out.println("OOOOH I like" + snip + "too") ;
+               System.out.println("OOOOH " + snip + " too!!!") ;
            }
            
            else
@@ -327,6 +329,7 @@ public class Chatbot
                System.out.println("That's nice!");
            }
            
+           return "joe = chatbot" ;
     }   
 
     
@@ -435,7 +438,8 @@ public class Chatbot
         }
         else if (whichResponse == 8) //logic
         {
-            reponse = "Can you be more precise?"; //random response
+           response = "Can you be more precise?"; //random response
+        }
         else
         {
             response = "Tell me how you feel about that"; //random response
